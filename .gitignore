@@ -1,0 +1,138 @@
+# ---------------------------------------------------------------------------
+# OmnesoftChallenge - single .gitignore covering backend (.NET) and frontend (Node)
+# ---------------------------------------------------------------------------
+
+# ===========================================================================
+# .NET / Visual Studio
+# ===========================================================================
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache / options
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Code (keep shared workspace config)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish output
+[Pp]ublish/
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# ASP.NET scaffolding / misc
+ScaffoldingReadMe.txt
+*.cache
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Serilog rolling files written next to the binaries
+Logs/
+
+# Local user secrets fallback
+secrets.json
+
+# ===========================================================================
+# Node / React / Vite (frontend)
+# ===========================================================================
+
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+*.local
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Caches
+.eslintcache
+.npm
+.parcel-cache
+.cache/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# ===========================================================================
+# Environment files (keep the committed templates)
+# ===========================================================================
+
+.env
+.env.*
+!.env.example
+
+# ===========================================================================
+# OS noise
+# ===========================================================================
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~

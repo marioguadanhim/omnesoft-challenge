@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/1 - UI/">
+    <Project Path="src/OmnesoftChallenge.AppHost/OmnesoftChallenge.AppHost.csproj" />
+    <Project Path="src/OmnesoftChallenge.Api/OmnesoftChallenge.Api.csproj" />
+  </Folder>
+  <Folder Name="/2 - BLL/">
+    <Project Path="src/OmnesoftChallenge.BLL/OmnesoftChallenge.BLL.csproj" />
+  </Folder>
+  <Folder Name="/3 - DAL/">
+    <Project Path="src/OmnesoftChallenge.DAL/OmnesoftChallenge.DAL.csproj" />
+  </Folder>
+  <Folder Name="/4 - Tests/">
+    <Project Path="tests/OmnesoftChallenge.IntegrationTests/OmnesoftChallenge.IntegrationTests.csproj" />
+  </Folder>
+</Solution>

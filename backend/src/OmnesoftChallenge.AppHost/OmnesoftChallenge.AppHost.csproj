@@ -1,0 +1,21 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.5.4">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>0d138955-d02d-4887-afb1-2d1fc01933d0</UserSecretsId>
+    <NoWarn>$(NoWarn);ASPIRE010</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.JavaScript" Version="13.5.4" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OmnesoftChallenge.Api\OmnesoftChallenge.Api.csproj" />
+  </ItemGroup>
+
+</Project>
